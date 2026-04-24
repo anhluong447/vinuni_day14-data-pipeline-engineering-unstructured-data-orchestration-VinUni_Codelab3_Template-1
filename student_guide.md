@@ -73,5 +73,3 @@ Các bạn di chuyển vào thư mục `starter_code/` và hoàn thiện các ph
 *   **Observability (20%)**: Phát hiện và loại bỏ được các bản ghi lỗi (ví dụ: `doc2_corrupt.json`).
 *   **Harmonization (30%)**: Không có xung đột schema (Dữ liệu từ 2 nguồn phải đồng nhất).
 *   **Final Result (10%)**: File kết quả đúng định dạng JSON List.
-*   **Harmonization (30%)**: Không có xung đột schema (Dữ liệu từ 2 nguồn phải đồng nhất).
-*   **Final Result (10%)**: File kết quả đúng định dạng JSON List.
