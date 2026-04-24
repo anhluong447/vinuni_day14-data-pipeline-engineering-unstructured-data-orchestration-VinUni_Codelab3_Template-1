@@ -10,12 +10,12 @@ Chào mừng bạn đến với bài lab về **Data Pipeline Engineering**. Tro
 ## 2. Phân vai trong nhóm (Roles)
 Để mô phỏng một đội ngũ kỹ sư thực tế, nhóm bạn sẽ chia thành 4 vai trò:
 
-| Vai trò | File phụ trách | Nhiệm vụ chính |
-| :--- | :--- | :--- |
-| **Lead Data Architect** | `schema.py` | Thiết kế "Hợp đồng dữ liệu" chung cho cả team. |
-| **ETL Builder** | `process_unstructured.py` | Viết logic chuyển đổi dữ liệu thô và làm sạch text (Regex). |
-| **Observability Engineer** | `quality_check.py` | Xây dựng "Cổng kiểm soát chất lượng" (Quality Gates). |
-| **DevOps Specialist** | `orchestrator.py` | Kết nối các thành phần và vận hành toàn bộ Pipeline. |
+| Vai trò                    | File phụ trách            | Nhiệm vụ chính                                              |
+| :------------------------- | :------------------------ | :---------------------------------------------------------- |
+| **Lead Data Architect**    | `schema.py`               | Thiết kế "Hợp đồng dữ liệu" chung cho cả team.              |
+| **ETL Builder**            | `process_unstructured.py` | Viết logic chuyển đổi dữ liệu thô và làm sạch text (Regex). |
+| **Observability Engineer** | `quality_check.py`        | Xây dựng "Cổng kiểm soát chất lượng" (Quality Gates).       |
+| **DevOps Specialist**      | `orchestrator.py`         | Kết nối các thành phần và vận hành toàn bộ Pipeline.        |
 
 ---
 
@@ -71,5 +71,7 @@ Các bạn di chuyển vào thư mục `starter_code/` và hoàn thiện các ph
 ## 4. Tiêu chí chấm điểm
 *   **Execution (40%)**: Pipeline chạy trơn tru, làm sạch được nhiễu trong PDF.
 *   **Observability (20%)**: Phát hiện và loại bỏ được các bản ghi lỗi (ví dụ: `doc2_corrupt.json`).
+*   **Harmonization (30%)**: Không có xung đột schema (Dữ liệu từ 2 nguồn phải đồng nhất).
+*   **Final Result (10%)**: File kết quả đúng định dạng JSON List.
 *   **Harmonization (30%)**: Không có xung đột schema (Dữ liệu từ 2 nguồn phải đồng nhất).
 *   **Final Result (10%)**: File kết quả đúng định dạng JSON List.
